@@ -27,7 +27,7 @@ A modern, glassmorphism-styled website for Cooperative Codebase - a New Orleans-
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 ├── app/
 │   ├── layout.tsx          # Root layout with theme provider
 │   ├── page.tsx            # Main landing page
@@ -41,7 +41,7 @@ A modern, glassmorphism-styled website for Cooperative Codebase - a New Orleans-
 ├── lib/
 │   └── utils.ts           # Utility functions
 └── tailwind.config.ts     # Tailwind configuration
-\`\`\`
+```
 
 ## 🚀 Getting Started
 
@@ -53,24 +53,24 @@ A modern, glassmorphism-styled website for Cooperative Codebase - a New Orleans-
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd cooperative-codebase-website
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
 # or
 yarn install
-\`\`\`
+```
 
 3. Run the development server:
-\`\`\`bash
+```bash
 npm run dev
 # or
 yarn dev
-\`\`\`
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -121,20 +121,20 @@ Cooperative Codebase is dedicated to:
 ## 🛠️ Customization
 
 ### Colors
-The color palette can be customized in \`tailwind.config.ts\`:
+The color palette can be customized in `tailwind.config.ts`:
 - Primary blue: #3B82F6
 - Accent blue: #60A5FA
 - Background: Dark navy gradients
 
 ### Glassmorphism Effects
 Glass effects are achieved through:
-- \`backdrop-blur-xl\` for blur effects
-- \`bg-black/30\` for translucent backgrounds
-- \`border-white/10\` for subtle borders
+- `backdrop-blur-xl` for blur effects
+- `bg-black/30` for translucent backgrounds
+- `border-white/10` for subtle borders
 
 ### Content Updates
-- Update text content directly in \`app/page.tsx\`
-- Replace logo in \`public/images/logo.png\`
+- Update text content directly in `app/page.tsx`
+- Replace logo in `public/images/logo.png`
 - Modify contact form fields as needed
 
 ## 📱 Responsive Design
@@ -148,10 +148,10 @@ The website is fully responsive with breakpoints:
 
 ### Available Scripts
 
-- \`npm run dev\` - Start development server
-- \`npm run build\` - Build for production
-- \`npm run start\` - Start production server
-- \`npm run lint\` - Run ESLint
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
 ### Code Style
 
