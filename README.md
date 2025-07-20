@@ -47,29 +47,40 @@ A modern, glassmorphism-styled website for Cooperative Codebase - a New Orleans-
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn package manager
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone <repository-url>
-cd cooperative-codebase-website
+git clone https://github.com/cooperative-codebase/our_website.git
+cd our_website
 ```
 
-2. Install dependencies:
+2. Install pnpm
+
 ```bash
-npm install
-# or
-yarn install
+npm install -g pnpm
 ```
 
-3. Run the development server:
+3. Install dependencies:
+
 ```bash
-npm run dev
-# or
-yarn dev
+pnpm install
+```
+
+4. Build the project:
+
+```bash
+pnpm build
+```
+
+5. Run the development server:
+
+```bash
+pnpm dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -77,34 +88,40 @@ yarn dev
 ## 📄 Page Sections
 
 ### Hero Section
+
 - Logo display with glassmorphism container
 - Main heading with gradient text
 - Descriptive tagline
 - Location and service badges
 
 ### About Section
+
 - Organization story and mission
 - Community focus highlight
 - Connected community visualization
 
 ### Mission & Values
+
 - Four core pillars:
   - Grow Coop Ecosystem
-  - Advance Coop Economy  
+  - Advance Coop Economy
   - Fair Distribution
   - Software Solutions
 
 ### Services Section
+
 - Cooperative Management Systems
 - Political Organization Tools
 - Consulting & Strategy
 
 ### Contact Section
+
 - Interactive contact form
 - Email, phone, and project description fields
 - Glassmorphism styling with color-coded focus states
 
 ### Footer
+
 - Logo display
 - Copyright information
 - Consistent glassmorphism design
@@ -121,18 +138,23 @@ Cooperative Codebase is dedicated to:
 ## 🛠️ Customization
 
 ### Colors
+
 The color palette can be customized in `tailwind.config.ts`:
+
 - Primary blue: #3B82F6
 - Accent blue: #60A5FA
 - Background: Dark navy gradients
 
 ### Glassmorphism Effects
+
 Glass effects are achieved through:
+
 - `backdrop-blur-xl` for blur effects
 - `bg-black/30` for translucent backgrounds
 - `border-white/10` for subtle borders
 
 ### Content Updates
+
 - Update text content directly in `app/page.tsx`
 - Replace logo in `public/images/logo.png`
 - Modify contact form fields as needed
@@ -140,18 +162,19 @@ Glass effects are achieved through:
 ## 📱 Responsive Design
 
 The website is fully responsive with breakpoints:
+
 - Mobile: < 768px
-- Tablet: 768px - 1024px  
+- Tablet: 768px - 1024px
 - Desktop: > 1024px
 
 ## 🔧 Development
 
 ### Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint
 
 ### Code Style
 
@@ -173,7 +196,7 @@ This project is optimized for deployment on Vercel:
 For questions about this website or Cooperative Codebase services:
 
 - **Email**: hello@cooperativecodebase.org
-- **Phone**: (504) 555-COOP
+- **Phone**: TBD
 - **Location**: New Orleans, LA
 
 ## 📄 License
