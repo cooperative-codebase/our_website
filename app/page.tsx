@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import {
   Code,
   Users,
@@ -13,8 +13,9 @@ import {
   ArrowRight,
   Star,
   Sparkles,
-} from "lucide-react"
-import Image from "next/image"
+} from "lucide-react";
+import Image from "next/image";
+import TempButton from "@/components/ui/temp-button";
 
 export default function CooperativeCodebasePage() {
   return (
@@ -54,7 +55,8 @@ export default function CooperativeCodebasePage() {
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-3xl mx-auto font-light">
-                Building software solutions and growing the cooperative ecosystem in New Orleans
+                Building software solutions and growing the cooperative
+                ecosystem in New Orleans
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -85,8 +87,9 @@ export default function CooperativeCodebasePage() {
                 About Us
               </h2>
               <p className="text-xl text-slate-300 max-w3xl">
-                We are a New Orleans-based cooperative dedicated to advancing the cooperative economy through technology
-                and community building.
+                We are a New Orleans-based cooperative dedicated to advancing
+                the cooperative economy through technology and community
+                building.
               </p>
             </div>
           </div>
@@ -97,16 +100,22 @@ export default function CooperativeCodebasePage() {
               <div className="relative z-10">
                 <div className="flex items-center mb-4">
                   <Sparkles className="w-6 h-6 text-blue-400 mr-3" />
-                  <h3 className="text-2xl font-semibold text-blue-400">Our Story</h3>
+                  <h3 className="text-2xl font-semibold text-blue-400">
+                    Our Story
+                  </h3>
                 </div>
                 <p className="text-slate-300 mb-4 leading-relaxed">
-                  Born in the vibrant city of New Orleans, Cooperative Codebase emerged from a vision to harness
-                  technology for community empowerment. We believe that cooperative principles and cutting-edge software
-                  can work together to create a more equitable economy.
+                  Born in the vibrant city of New Orleans, Cooperative Codebase
+                  emerged from a vision to harness technology for community
+                  empowerment. We believe that cooperative principles and
+                  cutting-edge software can work together to create a more
+                  equitable economy.
                 </p>
                 <p className="text-slate-300 leading-relaxed">
-                  Our team combines deep technical expertise with a passion for social justice, working alongside
-                  cooperatives and political organizations to build tools that truly serve their communities.
+                  Our team combines deep technical expertise with a passion for
+                  social justice, working alongside cooperatives and political
+                  organizations to build tools that truly serve their
+                  communities.
                 </p>
               </div>
             </div>
@@ -118,9 +127,12 @@ export default function CooperativeCodebasePage() {
                   <div className="backdrop-blur-md bg-black/30 border border-cyan-400/50 rounded-2xl p-4 inline-block mb-4">
                     <Network className="w-16 h-16 text-cyan-400" />
                   </div>
-                  <h4 className="text-xl font-semibold text-white mb-2">Connected Community</h4>
+                  <h4 className="text-xl font-semibold text-white mb-2">
+                    Connected Community
+                  </h4>
                   <p className="text-blue-100">
-                    Building networks that strengthen the cooperative ecosystem across NOLA
+                    Building networks that strengthen the cooperative ecosystem
+                    across NOLA
                   </p>
                 </div>
               </div>
@@ -138,7 +150,8 @@ export default function CooperativeCodebasePage() {
                 Our Mission
               </h2>
               <p className="text-xl text-slate-300 max-w-3xl">
-                We are committed to four core pillars that drive everything we do
+                We are committed to four core pillars that drive everything we
+                do
               </p>
             </div>
           </div>
@@ -150,9 +163,12 @@ export default function CooperativeCodebasePage() {
                 <div className="backdrop-blur-md bg-black/40 border border-blue-400/50 rounded-xl p-3 inline-block mb-4">
                   <Users className="w-8 h-8 text-blue-400" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-white">Grow Coop Ecosystem</h3>
+                <h3 className="text-lg font-semibold mb-2 text-white">
+                  Grow Coop Ecosystem
+                </h3>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Expanding and strengthening the cooperative network throughout New Orleans
+                  Expanding and strengthening the cooperative network throughout
+                  New Orleans
                 </p>
               </div>
             </div>
@@ -163,9 +179,12 @@ export default function CooperativeCodebasePage() {
                 <div className="backdrop-blur-md bg-black/40 border border-cyan-400/50 rounded-xl p-3 inline-block mb-4">
                   <Zap className="w-8 h-8 text-cyan-400" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-white">Advance Coop Economy</h3>
+                <h3 className="text-lg font-semibold mb-2 text-white">
+                  Advance Coop Economy
+                </h3>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Promoting economic models that prioritize community ownership and democratic control
+                  Promoting economic models that prioritize community ownership
+                  and democratic control
                 </p>
               </div>
             </div>
@@ -176,9 +195,12 @@ export default function CooperativeCodebasePage() {
                 <div className="backdrop-blur-md bg-black/40 border border-purple-400/50 rounded-xl p-3 inline-block mb-4">
                   <Heart className="w-8 h-8 text-purple-400" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-white">Fair Distribution</h3>
+                <h3 className="text-lg font-semibold mb-2 text-white">
+                  Fair Distribution
+                </h3>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Ensuring equitable access to products, services, and opportunities for all
+                  Ensuring equitable access to products, services, and
+                  opportunities for all
                 </p>
               </div>
             </div>
@@ -189,9 +211,12 @@ export default function CooperativeCodebasePage() {
                 <div className="backdrop-blur-md bg-black/40 border border-emerald-400/50 rounded-xl p-3 inline-block mb-4">
                   <Code className="w-8 h-8 text-emerald-400" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-white">Software Solutions</h3>
+                <h3 className="text-lg font-semibold mb-2 text-white">
+                  Software Solutions
+                </h3>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Building custom technology for cooperatives and political organizations
+                  Building custom technology for cooperatives and political
+                  organizations
                 </p>
               </div>
             </div>
@@ -208,7 +233,8 @@ export default function CooperativeCodebasePage() {
                 Our Services
               </h2>
               <p className="text-xl text-slate-300 max-w-3xl">
-                Comprehensive technology solutions designed specifically for cooperatives and community organizations
+                Comprehensive technology solutions designed specifically for
+                cooperatives and community organizations
               </p>
             </div>
           </div>
@@ -220,20 +246,26 @@ export default function CooperativeCodebasePage() {
                 <div className="backdrop-blur-md bg-black/50 border border-blue-400/50 rounded-2xl p-4 inline-block mb-6">
                   <Building2 className="w-12 h-12 text-blue-400" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-white">Cooperative Management Systems</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">
+                  Cooperative Management Systems
+                </h3>
                 <p className="text-slate-300 mb-4 leading-relaxed">
-                  Custom software for member management, democratic decision-making, and resource allocation
+                  Custom software for member management, democratic
+                  decision-making, and resource allocation
                 </p>
                 <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-xl p-4">
                   <ul className="text-sm text-slate-400 space-y-2">
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-blue-400" /> Member portals and voting systems
+                      <Star className="w-3 h-3 mr-2 text-blue-400" /> Member
+                      portals and voting systems
                     </li>
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-blue-400" /> Financial transparency tools
+                      <Star className="w-3 h-3 mr-2 text-blue-400" /> Financial
+                      transparency tools
                     </li>
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-blue-400" /> Resource sharing platforms
+                      <Star className="w-3 h-3 mr-2 text-blue-400" /> Resource
+                      sharing platforms
                     </li>
                   </ul>
                 </div>
@@ -246,20 +278,26 @@ export default function CooperativeCodebasePage() {
                 <div className="backdrop-blur-md bg-black/50 border border-cyan-400/50 rounded-2xl p-4 inline-block mb-6">
                   <Handshake className="w-12 h-12 text-cyan-400" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-white">Political Organization Tools</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">
+                  Political Organization Tools
+                </h3>
                 <p className="text-slate-300 mb-4 leading-relaxed">
-                  Technology solutions for grassroots organizing, campaign management, and community engagement
+                  Technology solutions for grassroots organizing, campaign
+                  management, and community engagement
                 </p>
                 <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-xl p-4">
                   <ul className="text-sm text-slate-400 space-y-2">
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-cyan-400" /> Volunteer coordination systems
+                      <Star className="w-3 h-3 mr-2 text-cyan-400" /> Volunteer
+                      coordination systems
                     </li>
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-cyan-400" /> Event management platforms
+                      <Star className="w-3 h-3 mr-2 text-cyan-400" /> Event
+                      management platforms
                     </li>
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-cyan-400" /> Community outreach tools
+                      <Star className="w-3 h-3 mr-2 text-cyan-400" /> Community
+                      outreach tools
                     </li>
                   </ul>
                 </div>
@@ -272,20 +310,26 @@ export default function CooperativeCodebasePage() {
                 <div className="backdrop-blur-md bg-black/50 border border-purple-400/50 rounded-2xl p-4 inline-block mb-6">
                   <Lightbulb className="w-12 h-12 text-purple-400" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-white">Consulting & Strategy</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">
+                  Consulting & Strategy
+                </h3>
                 <p className="text-slate-300 mb-4 leading-relaxed">
-                  Strategic guidance for digital transformation and cooperative development
+                  Strategic guidance for digital transformation and cooperative
+                  development
                 </p>
                 <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-xl p-4">
                   <ul className="text-sm text-slate-400 space-y-2">
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-purple-400" /> Technology roadmap planning
+                      <Star className="w-3 h-3 mr-2 text-purple-400" />{" "}
+                      Technology roadmap planning
                     </li>
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-purple-400" /> Cooperative formation support
+                      <Star className="w-3 h-3 mr-2 text-purple-400" />{" "}
+                      Cooperative formation support
                     </li>
                     <li className="flex items-center">
-                      <Star className="w-3 h-3 mr-2 text-purple-400" /> Digital literacy training
+                      <Star className="w-3 h-3 mr-2 text-purple-400" /> Digital
+                      literacy training
                     </li>
                   </ul>
                 </div>
@@ -306,14 +350,18 @@ export default function CooperativeCodebasePage() {
                   Get In Touch
                 </h2>
                 <p className="text-xl text-slate-300">
-                  Ready to build something amazing together? Tell us about your project.
+                  Ready to build something amazing together? Tell us about your
+                  project.
                 </p>
               </div>
 
               <form className="space-y-6 max-w-2xl mx-auto">
-                <div className="grid md:grid-cols-2 gap-6">
+                {/* <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium text-slate-300 mb-2"
+                    >
                       Email Address
                     </label>
                     <input
@@ -326,7 +374,10 @@ export default function CooperativeCodebasePage() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-slate-300 mb-2">
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-slate-300 mb-2"
+                    >
                       Phone Number
                     </label>
                     <input
@@ -341,7 +392,10 @@ export default function CooperativeCodebasePage() {
                 </div>
 
                 <div>
-                  <label htmlFor="description" className="block text-sm font-medium text-slate-300 mb-2">
+                  <label
+                    htmlFor="description"
+                    className="block text-sm font-medium text-slate-300 mb-2"
+                  >
                     Project Description
                   </label>
                   <textarea
@@ -352,17 +406,18 @@ export default function CooperativeCodebasePage() {
                     className="w-full backdrop-blur-md bg-black/40 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-slate-400 focus:border-purple-400/50 focus:outline-none focus:ring-2 focus:ring-purple-400/20 transition-all duration-300 resize-none"
                     placeholder="Tell us about your cooperative, organization, or project. What kind of software solution are you looking for?"
                   />
-                </div>
+                </div> */}
 
                 <div className="text-center">
-                  <Button
+                  <TempButton></TempButton>
+                  {/* <Button
                     type="submit"
                     size="lg"
                     className="backdrop-blur-md bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 border border-blue-400/50 text-white px-8 py-4 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 group"
                   >
                     Send Message
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Button>
+                  </Button> */}
                 </div>
               </form>
             </div>
@@ -385,11 +440,15 @@ export default function CooperativeCodebasePage() {
                 />
               </div>
             </div>
-            <p className="text-slate-400 mb-4">Building technology for community empowerment in New Orleans</p>
-            <p className="text-slate-500 text-sm">© 2025 Cooperative Codebase. All rights reserved.</p>
+            <p className="text-slate-400 mb-4">
+              Building technology for community empowerment in New Orleans
+            </p>
+            <p className="text-slate-500 text-sm">
+              © 2025 Cooperative Codebase. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
