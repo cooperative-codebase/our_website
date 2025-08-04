@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { ContactFormReusable } from "@/components/ContactFormReusable"
 import { ArrowRight, CheckCircle, Users, Code, Globe, Shield, Zap } from "lucide-react"
 
+
 export default function CooperativeCodebasePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-slate-900 to-black text-white relative overflow-hidden">
@@ -52,6 +53,7 @@ export default function CooperativeCodebasePage() {
               {/* Description */}
               <p className="text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto">
                 Empowering and growing the cooperative ecosystem in New Orleans
+
               </p>
               
               {/* Button */}
@@ -91,6 +93,7 @@ export default function CooperativeCodebasePage() {
               <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-blue-100 transition-colors">Cooperative Management Systems</h3>
               <p className="text-slate-300 group-hover:text-slate-200 transition-colors mb-4">
                 Custom software for member management, democratic decision-making, and resource allocation
+
               </p>
               <ul className="text-slate-400 text-sm space-y-2">
                 <li>• Member portals and voting systems</li>
@@ -98,11 +101,11 @@ export default function CooperativeCodebasePage() {
                 <li>• Resource sharing platforms</li>
               </ul>
             </div>
-
             {/* Political Organization Tools */}
             <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-2xl p-8 shadow-2xl hover:shadow-3xl hover:shadow-purple-500/25 hover:border-purple-400/30 transition-all duration-500 group hover:bg-black/40">
               <div className="backdrop-blur-md bg-purple-500/20 border border-purple-400/30 rounded-xl p-4 w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-purple-500/30 group-hover:border-purple-400/50 group-hover:shadow-purple-500/50 transition-all duration-300">
                 <Globe className="w-8 h-8 text-purple-400 group-hover:text-purple-300" />
+
               </div>
               <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-100 transition-colors">Political Organization Tools</h3>
               <p className="text-slate-300 group-hover:text-slate-200 transition-colors mb-4">
@@ -114,7 +117,6 @@ export default function CooperativeCodebasePage() {
                 <li>• Community outreach tools</li>
               </ul>
             </div>
-
             {/* Consulting & Strategy */}
             <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-2xl p-8 shadow-2xl hover:shadow-3xl hover:shadow-green-500/25 hover:border-green-400/30 transition-all duration-500 group hover:bg-black/40">
               <div className="backdrop-blur-md bg-green-500/20 border border-green-400/30 rounded-xl p-4 w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-green-500/30 group-hover:border-green-400/50 group-hover:shadow-green-500/50 transition-all duration-300">
@@ -133,7 +135,6 @@ export default function CooperativeCodebasePage() {
           </div>
         </div>
       </section>
-
       {/* About Section */}
       <section id="about" className="py-16 px-4 relative">
         <div className="max-w-4xl mx-auto">
@@ -144,6 +145,7 @@ export default function CooperativeCodebasePage() {
                 <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
                   About Us
                 </h2>
+
               </div>
 
               <div className="max-w-4xl mx-auto">
@@ -187,11 +189,13 @@ export default function CooperativeCodebasePage() {
                   Get In Touch
                 </h2>
                 <p className="text-xl text-slate-300">
-                  Ready to build something amazing together? Tell us about your project.
+                  Ready to build something amazing together? Tell us about your
+                  project.
                 </p>
               </div>
 
               <ContactFormReusable />
+
             </div>
           </div>
         </div>
@@ -212,11 +216,15 @@ export default function CooperativeCodebasePage() {
                 />
               </div>
             </div>
-            <p className="text-slate-400 mb-4">Building technology for community empowerment in New Orleans</p>
-            <p className="text-slate-500 text-sm">© 2025 Cooperative Codebase. All rights reserved.</p>
+            <p className="text-slate-400 mb-4">
+              Building technology for community empowerment in New Orleans
+            </p>
+            <p className="text-slate-500 text-sm">
+              © 2025 Cooperative Codebase. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }

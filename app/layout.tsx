@@ -1,21 +1,25 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Cooperative Codebase - Software Solutions for Community Empowerment',
-  description: 'Building software solutions and growing the cooperative ecosystem in New Orleans. We create custom technology solutions that strengthen cooperatives, nonprofits, and community organizations.',
-  generator: 'Next.js',
-  icons: {
-    icon: '/images/logo.png',
-    shortcut: '/images/logo.png',
-    apple: '/images/logo.png',
+
+  title: "Cooperative Codebase",
+  description: "Landing page for cooperativecodebase.com",
+  openGraph: {
+    type: "website",
+    url: "https://cooperativecodebase.com",
+    title: "Cooperative Codebase",
+    description: "Landing page for cooperativecodebase.com",
+    siteName: "Cooperative Codebase",
+    images: [{ url: "https://cooperativecodebase.com/images/logo.png" }],
   },
-}
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -27,5 +31,5 @@ export default function RootLayout({
       </head>
       <body>{children}</body>
     </html>
-  )
+  );
 }
