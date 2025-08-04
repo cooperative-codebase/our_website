@@ -1,6 +1,10 @@
+// UNUSED HOOK - Kept for future reference
+// This hook is currently not used in the application
+// It was originally used by the toaster component
+
+/*
 "use client"
 
-// Inspired by react-hot-toast library
 import * as React from "react"
 
 import type {
@@ -192,3 +196,17 @@ function useToast() {
 }
 
 export { useToast, toast }
+*/
+
+// Placeholder exports to prevent import errors
+export function useToast() {
+  return {
+    toasts: [],
+    toast: () => ({ id: "placeholder", dismiss: () => {}, update: () => {} }),
+    dismiss: () => {},
+  }
+}
+
+export function toast() {
+  return { id: "placeholder", dismiss: () => {}, update: () => {} }
+}
