@@ -217,7 +217,8 @@ export default function CooperativeCodebasePage() {
                   Get In Touch
                 </h2>
                 <p className="text-xl text-slate-300">
-                  Ready to build something amazing together? Tell us about your project.
+                  Ready to build something amazing together? Tell us about your
+                  project.
                 </p>
               </div>
 
@@ -242,11 +243,15 @@ export default function CooperativeCodebasePage() {
                 />
               </div>
             </div>
-            <p className="text-slate-400 mb-4">Building technology for community empowerment in New Orleans</p>
-            <p className="text-slate-500 text-sm">© 2025 Cooperative Codebase. All rights reserved.</p>
+            <p className="text-slate-400 mb-4">
+              Building technology for community empowerment in New Orleans
+            </p>
+            <p className="text-slate-500 text-sm">
+              © 2025 Cooperative Codebase. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
