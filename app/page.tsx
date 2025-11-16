@@ -32,6 +32,7 @@ export default function CooperativeCodebasePage() {
           <div className="hidden md:flex space-x-8">
             <a href="#services" className="text-slate-300 hover:text-white transition-colors">Services</a>
             <a href="#about" className="text-slate-300 hover:text-white transition-colors">About</a>
+            <a href="#projects" className="text-slate-300 hover:text-white transition-colors">Projects</a>
             <a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a>
           </div>
         </div>
@@ -170,6 +171,35 @@ export default function CooperativeCodebasePage() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Projects Section */}
+      <section id="projects" className="py-16 px-4 relative">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+              Our Projects
+            </h2>
+            <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+              Explore our work and see how we're building technology solutions for the cooperative ecosystem.
+            </p>
+          </div>
+
+          <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden hover:shadow-blue-500/25 hover:border-blue-400/30 transition-all duration-500 group">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-transparent to-purple-500/10 rounded-3xl group-hover:from-blue-500/20 group-hover:to-purple-500/20 transition-all duration-500" />
+            <div className="relative z-10">
+              <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-white/20">
+                <iframe
+                  src="https://www.youtube.com/embed/EbiRjYHen8M"
+                  title="Our Projects"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
               </div>
             </div>
           </div>
